@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class GradienteBack extends StatelessWidget {
   String title = "Popular";
-  double heightGradient = 250;
+  double heightGradient = 250.0;
   GradienteBack(this.title, this.heightGradient);
   @override
   Widget build(BuildContext context) {

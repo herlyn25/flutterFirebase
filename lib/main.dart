@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:programa_completo/User/bloc/bloc_user.dart';
+import 'package:programa_completo/User/ui/screens/sign_in_screen.dart';
 import 'package:programa_completo/Widgets/buttonNavegation.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
               primarySwatch: Colors.blue,
             ),
-            home: ButtonNavigation()),
+            home: SignInScreen()),
         bloc: UserBloc());
   }
 }
