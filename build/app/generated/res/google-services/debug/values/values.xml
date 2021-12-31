@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">508364938599-liulh82aootk2l9hhjbrg6t9a7f525po.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">508364938599</string>
+    <string name="google_api_key" translatable="false">AIzaSyC5srUO2TTYQSG_7M5dh_PnoC8trdPQxgU</string>
+    <string name="google_app_id" translatable="false">1:508364938599:android:6732fd2bbd70b344b263c2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5srUO2TTYQSG_7M5dh_PnoC8trdPQxgU</string>
+    <string name="google_storage_bucket" translatable="false">mibloclugares.appspot.com</string>
+    <string name="project_id" translatable="false">mibloclugares</string>
+</resources>
