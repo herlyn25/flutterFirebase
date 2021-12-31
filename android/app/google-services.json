@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "508364938599",
+    "project_id": "mibloclugares",
+    "storage_bucket": "mibloclugares.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508364938599:android:6732fd2bbd70b344b263c2",
+        "android_client_info": {
+          "package_name": "com.segundobloc.pruebabloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508364938599-liulh82aootk2l9hhjbrg6t9a7f525po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5srUO2TTYQSG_7M5dh_PnoC8trdPQxgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508364938599-liulh82aootk2l9hhjbrg6t9a7f525po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
