@@ -1,8 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:programa_completo/models/place.dart';
 import 'cardImageProfile.dart';
-import '../widgets/descriptionPlaceProfile.dart';
+import 'descriptionPlaceProfile.dart';
 
 class CardImageProfileList extends StatelessWidget {
+  Place place1 = Place(
+      name: "Coliseo de Roma ",
+      descripcion:
+          "se celebraron luchas de gladiadores y peleas entre animales",
+      urlImage: "assets/italia1.jpg",
+      likes: 5);
+  Place place2 = Place(
+      name: "Venecia",
+      descripcion:
+          "Ciudad sin carreteras sus vias son maritimas solo se viaja en barcos.",
+      urlImage: "assets/italia2.jpg",
+      likes: 20);
+  Place place = Place(
+      name: "Torre de Pisa",
+      descripcion:
+          "Es la torre campanario de la catedral de Pisa, situada en la plaza del Duomo de Pisa, ciudad con mismo nombre",
+      urlImage: "assets/italia2.jpg",
+      likes: 8);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -10,25 +29,14 @@ class CardImageProfileList extends StatelessWidget {
         margin: EdgeInsets.only(top: 10),
         child: Column(
           children: <Widget>[
-            CardImageProfile(
-                "assets/italia1.jpg",
-                DescriptionPlaceProfile(
-                    "Coliseo de Roma ",
-                    "se celebraron luchas de gladiadores y peleas entre animales",
-                    "Medidas: 123, 123, 123")),
-            CardImageProfile(
-                "assets/italia2.jpg",
-                DescriptionPlaceProfile(
-                  "Venecia ",
-                  "Ciudad sin carreteras sus vias son maritimas solo se viaja en barcos.",
-                  "Medidas: 432, 879, 345",
-                )),
-            CardImageProfile(
-                "assets/italia2.jpg",
-                DescriptionPlaceProfile(
-                    "Torre de Pisa",
-                    "Es la torre campanario de la catedral de Pisa, situada en la plaza del Duomo de Pisa, ciudad con mismo nombre",
-                    "Medidas: 756, 973, 309"))
+            CardImageProfile(place1.urlImage),
+            DescriptionPlaceProfile(
+                place1.name, place1.descripcion, place1.likes),
+            CardImageProfile(place2.urlImage),
+            DescriptionPlaceProfile(
+                place2.name, place2.descripcion, place2.likes),
+            CardImageProfile(place.urlImage),
+            DescriptionPlaceProfile(place.name, place.descripcion, place.likes)
           ],
         ));
   }
