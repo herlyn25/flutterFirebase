@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581256208497",
+    "project_id": "tercerintentofirebase",
+    "storage_bucket": "tercerintentofirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581256208497:android:0e512b0b353eee678bbbd0",
+        "android_client_info": {
+          "package_name": "com.segundobloc.pruebabloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581256208497-1ipk10emcvc1qoge53bksogugo6rthfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.segundobloc.pruebabloc",
+            "certificate_hash": "b07604c8fd0542ca7f026d2785708f67ba51df49"
+          }
+        },
+        {
+          "client_id": "581256208497-3lel2jo2m9cqakgdaf8m7pdksi9ra8nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDu1QiwLhCIyvn0NHd53Fefe0HIt-a7Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581256208497-3lel2jo2m9cqakgdaf8m7pdksi9ra8nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
