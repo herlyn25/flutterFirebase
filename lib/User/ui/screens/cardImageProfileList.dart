@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:programa_completo/models/place.dart';
+import 'package:programa_completo/Place/models/place.dart';
 import 'cardImageProfile.dart';
 import 'descriptionPlaceProfile.dart';
 
@@ -25,19 +25,17 @@ class CardImageProfileList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 810,
-        margin: EdgeInsets.only(top: 10),
         child: Column(
-          children: <Widget>[
-            CardImageProfile(place1.urlImage),
-            DescriptionPlaceProfile(
-                place1.name, place1.descripcion, place1.likes),
-            CardImageProfile(place2.urlImage),
-            DescriptionPlaceProfile(
-                place2.name, place2.descripcion, place2.likes),
-            CardImageProfile(place.urlImage),
-            DescriptionPlaceProfile(place.name, place.descripcion, place.likes)
-          ],
-        ));
+      crossAxisAlignment: CrossAxisAlignment.end,
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
+        CardImageProfile(place1.urlImage),
+        DescriptionPlaceProfile(place1.name, place1.descripcion, place1.likes),
+        CardImageProfile(place2.urlImage),
+        DescriptionPlaceProfile(place2.name, place2.descripcion, place2.likes),
+        CardImageProfile(place.urlImage),
+        DescriptionPlaceProfile(place.name, place.descripcion, place.likes)
+      ],
+    ));
   }
 }

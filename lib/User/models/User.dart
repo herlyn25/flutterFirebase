@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:programa_completo/models/place.dart';
+import 'package:programa_completo/Place/models/place.dart';
 
 class User {
   final String? uid;

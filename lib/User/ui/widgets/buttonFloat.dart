@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 class ButtonFloat extends StatefulWidget {
+  final IconData iconData;
+  final VoidCallback onPressed;
+
+  ButtonFloat({Key? key, required this.iconData, required this.onPressed});
+
   @override
   State<StatefulWidget> createState() {
     return _ButtonFloat();
@@ -8,13 +13,12 @@ class ButtonFloat extends StatefulWidget {
 }
 
 class _ButtonFloat extends State<ButtonFloat> {
-  bool _pressed = false;
-
+  /*bool _pressed = false;
   void onPressedFav() {
     setState(() {
       _pressed = !this._pressed;
     });
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +26,8 @@ class _ButtonFloat extends State<ButtonFloat> {
         backgroundColor: Color(0xFF11DA53),
         mini: true,
         tooltip: "Fav",
-        child: Icon(this._pressed ? Icons.favorite_border : Icons.favorite),
-        onPressed: onPressedFav);
+        child: Icon(Icons.favorite_border),
+        onPressed: widget.onPressed,
+        heroTag: null);
   }
 }

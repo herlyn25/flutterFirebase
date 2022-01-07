@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:programa_completo/User/ui/widgets/buttonFloat.dart';
-import 'package:programa_completo/models/place.dart';
+import 'package:programa_completo/Place/models/place.dart';
 
 class DescriptionPlaceProfile extends StatelessWidget {
   String name = "Coliseo de Roma ";
@@ -51,7 +51,10 @@ class DescriptionPlaceProfile extends StatelessWidget {
     );
     return Stack(
       alignment: Alignment(0.6, 1.5),
-      children: [descriptionPlace, ButtonFloat()],
+      children: [
+        descriptionPlace,
+        ButtonFloat(iconData: Icons.favorite_border, onPressed: () => {})
+      ],
     );
   }
 }

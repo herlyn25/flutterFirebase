@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../profile/gradienteProfile.dart';
+import 'gradienteProfile.dart';
 
 class ProfileTrips extends StatelessWidget {
   @override
